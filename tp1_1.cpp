@@ -10,7 +10,7 @@ main()
     punt = &x;
 
     printf("Direccion de memoria del puntero: %d\n", &punt);
-    printf("Contenido del puntero: %d\n", *punt);
+    printf("Contenido de lo que apunta el puntero: %d\n", *punt);
     printf("Direccion a la que apunta el puntero: %d\n", punt);
 
 }
